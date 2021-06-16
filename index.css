@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: whitesmoke;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  background-color: whitesmoke;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+  background-color: whitesmoke;
+}
+.five {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: whitesmoke;
+}
+.six {
+  grid-column: 2 / 4;
+  grid-row: 4;
+  background-color: whitesmoke;
+}
+.four {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: whitesmoke;
+}
